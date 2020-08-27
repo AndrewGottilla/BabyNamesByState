@@ -133,3 +133,5 @@ foreach my $y (0 .. $#state_array) #typical high/low finder loop
 #glorious, glorious output. Like a star in the night sky.
 print "State with most $input" . "s is $states{$high_pos}: $high\n";
 print "State with least $input" . "s is $states{$low_pos}: $low\n";
+
+system("pause");
