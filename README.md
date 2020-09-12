@@ -1,6 +1,46 @@
 # BabyNamesByState
-PERL script that processes state data for baby names taken from the data page of the Social Security Administration website.
+This is a small rework of my Perl final project
 
-When running script, please make sure that the StateNames.csv file is in the same directory. (May be changed later)
+## Table of Contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Usage](#usage)
 
-Data: [https://www.ssa.gov/data/] : Baby Names from Social Security Card Applications - State and District of Columbia Data
+## General info
+BabyNamesFromState is a script that processes a version of the 'Baby Names from Social Security Card Applications' dataset from the Social Security Administration. This dataset contains state records from the year 1910 to 2014. This script takes in a name/gender and a year, then displays each record that matches, and eventually displays the states with the least and most instances of that name/gender.
+
+## Technologies
+Script created using:
+* Perl version: 5.32
+
+## Setup
+#### Install Perl 5.32:
+* https://www.perl.org/get.html
+
+#### Get Dataset:
+This file is currently on my Drive since the SSA updated their dataset format.
+* [StateNames.csv](https://drive.google.com/file/d/1Hge1EyyQhw1HQ5rB_I7fqz5_9dBmuNzD/view?usp=sharing)
+
+#### Move Dataset:
+* Move StateNames.csv to the same directory as BabyNamesByState.pl.
+
+## Usage
+Run the script as you would any other Perl script:
+```
+$ cd ../BabyNamesByState
+$ perl BabyNamesByState.pl
+```
+
+Running the script looking for "Andrew" from every year:
+
+```
+$ cd ../BabyNamesByState
+$ perl BabyNamesByState.pl "Andrew" "all"
+```
+
+Running the script looking for all males in 1996:
+```
+$ cd ../BabyNamesByState
+$ perl BabyNamesByState.pl "M" "1996"
+```
