@@ -16,6 +16,7 @@ Script created using:
 
 ## Setup
 ### a. Install Perl 5.32:
+Please use the appropriate guide for your environment of choice:
 * https://www.perl.org/get.html
 
 ### b. Get Dataset:
@@ -23,7 +24,7 @@ This file is currently on my Drive since the SSA updated their dataset format.
 * [StateNames.csv](https://drive.google.com/file/d/1Hge1EyyQhw1HQ5rB_I7fqz5_9dBmuNzD/view?usp=sharing)
 
 ### c. Move Dataset:
-* Move StateNames.csv to the same directory as BabyNamesByState.pl.
+Move StateNames.csv to the same directory as BabyNamesByState.pl.
 
 ## Usage
 Run the script as you would any other Perl script:
