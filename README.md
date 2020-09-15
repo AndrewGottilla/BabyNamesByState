@@ -15,14 +15,14 @@ Script created using:
 * Perl version: 5.32
 
 ## Setup
-#### Install Perl 5.32:
+#### a. Install Perl 5.32:
 * https://www.perl.org/get.html
 
-#### Get Dataset:
+#### b. Get Dataset:
 This file is currently on my Drive since the SSA updated their dataset format.
 * [StateNames.csv](https://drive.google.com/file/d/1Hge1EyyQhw1HQ5rB_I7fqz5_9dBmuNzD/view?usp=sharing)
 
-#### Move Dataset:
+#### c. Move Dataset:
 * Move StateNames.csv to the same directory as BabyNamesByState.pl.
 
 ## Usage
